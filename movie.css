@@ -1,0 +1,35 @@
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section > div{
+    width: 260px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+.movieImg{
+    width: 100%;
+    height: 250px;
+}
+
+.movieTitle{
+    width: 100%;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+section div img{
+    width: 100%;
+    height: 100%;
+}
+
+section > div:hover .movieTitle{
+    text-decoration:underline;
+    color: brown;
+    
+}
